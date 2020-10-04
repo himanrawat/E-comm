@@ -1,0 +1,574 @@
+/* ================= GLOBAL ========================= */
+
+:root {
+  --pink: #eda3b5;
+  --white: #fff;
+  --black: #000;
+  --gray1: #f6f6f6;
+  --gray2: #efeff4;
+  --gray3: #e5e5ea;
+  --gray4: #d1d1d6;
+  --gray5: #c7c7cc;
+  --gray6: #8e8e93;
+  --gray7: #48484a;
+  --text: #1b2437;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: muli, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: playfair-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: playfair-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+}
+
+h3 {
+  font-family: playfair-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: muli, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* padding zero */
+.py-0,
+.pt-0,
+.p-0 {
+  padding-top: 0rem;
+}
+
+.py-0,
+.pb-0,
+.p-0 {
+  padding-bottom: 0rem;
+}
+
+.px-0,
+.pr-0,
+.p-0 {
+  padding-right: 0rem;
+}
+
+.px-0,
+.pl-0,
+.p-0 {
+  padding-left: 0rem;
+}
+
+/* margin zero */
+.my-0,
+.mt-0,
+.m-0 {
+  margin-top: 0rem;
+}
+
+.my-0,
+.mb-0,
+.m-0 {
+  margin-bottom: 0rem;
+}
+
+.mx-0,
+.mr-0,
+.m-0 {
+  margin-right: 0rem;
+}
+
+.mx-0,
+.ml-0,
+.m-0 {
+  margin-left: 0rem;
+}
+
+/* padding 0.25rem */
+.py-1,
+.pt-1,
+.p-1 {
+  padding-top: 0.25rem;
+}
+
+.py-1,
+.pb-1,
+.p-1 {
+  padding-bottom: 0.25rem;
+}
+
+.px-1,
+.pr-1,
+.p-1 {
+  padding-right: 0.25rem;
+}
+
+.px-1,
+.pl-1,
+.p-1 {
+  padding-left: 0.25rem;
+}
+
+/* margin 0.25rem */
+.my-1,
+.mt-1,
+.m-1 {
+  margin-top: 0.25rem;
+}
+
+.my-1,
+.mb-1,
+.m-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mx-1,
+.mr-1,
+.m-1 {
+  margin-right: 0.25rem;
+}
+
+.mx-1,
+.ml-1,
+.m-1 {
+  margin-left: 0.25rem;
+}
+
+/* padding 0.5rem */
+.py-2,
+.pt-2,
+.p-2 {
+  padding-top: 0.5rem;
+}
+
+.py-2,
+.pb-2,
+.p-2 {
+  padding-bottom: 0.5rem;
+}
+
+.px-2,
+.pr-2,
+.p-2 {
+  padding-right: 0.5rem;
+}
+
+.px-2,
+.pl-2,
+.p-2 {
+  padding-left: 0.5rem;
+}
+
+/* margin 0.5rem */
+.my-2,
+.mt-2,
+.m-2 {
+  margin-top: 0.5rem;
+}
+
+.my-2,
+.mb-2,
+.m-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mx-2,
+.mr-2,
+.m-2 {
+  margin-right: 0.5rem;
+}
+
+.mx-2,
+.ml-2,
+.m-2 {
+  margin-left: 0.5rem;
+}
+
+/* padding 1rem */
+.py-3,
+.pt-3,
+.p-3 {
+  padding-top: 1rem;
+}
+
+.py-3,
+.pb-3,
+.p-3 {
+  padding-bottom: 1rem;
+}
+
+.px-3,
+.pr-3,
+.p-3 {
+  padding-right: 1rem;
+}
+
+.px-3,
+.pl-3,
+.p-3 {
+  padding-left: 1rem;
+}
+
+/* margin 1rem */
+.my-3,
+.mt-3,
+.m-3 {
+  margin-top: 1rem;
+}
+
+.my-3,
+.mb-3,
+.m-3 {
+  margin-bottom: 1rem;
+}
+
+.mx-3,
+.mr-3,
+.m-3 {
+  margin-right: 1rem;
+}
+
+.mx-3,
+.ml-3,
+.m-3 {
+  margin-left: 1rem;
+}
+
+/* padding 1.5rem */
+.py-4,
+.pt-4,
+.p-4 {
+  padding-top: 1.5rem;
+}
+
+.py-4,
+.pb-4,
+.p-4 {
+  padding-bottom: 1.5rem;
+}
+
+.px-4,
+.pr-4,
+.p-4 {
+  padding-right: 1.5rem;
+}
+
+.px-4,
+.pl-4,
+.p-4 {
+  padding-left: 1.5rem;
+}
+
+/* margin 1.5rem */
+.my-4,
+.mt-4,
+.m-4 {
+  margin-top: 1rem;
+}
+
+.my-4,
+.mb-4,
+.m-4 {
+  margin-bottom: 1rem;
+}
+
+.mx-4,
+.mr-4,
+.m-4 {
+  margin-right: 1rem;
+}
+
+.mx-4,
+.ml-4,
+.m-4 {
+  margin-left: 1rem;
+}
+
+/* padding 3rem */
+.py-5,
+.pt-5,
+.p-5 {
+  padding-top: 3rem;
+}
+
+.py-5,
+.pb-5,
+.p-5 {
+  padding-bottom: 3rem;
+}
+
+.px-5,
+.pr-5,
+.p-5 {
+  padding-right: 3rem;
+}
+
+.px-5,
+.pl-5,
+.p-5 {
+  padding-left: 3rem;
+}
+
+/* margin 3rem */
+.my-5,
+.mt-5,
+.m-5 {
+  margin-top: 3rem;
+}
+
+.my-5,
+.mb-5,
+.m-5 {
+  margin-bottom: 3rem;
+}
+
+.mx-5,
+.mr-5,
+.m-5 {
+  margin-right: 3rem;
+}
+
+.mx-5,
+.ml-5,
+.m-5 {
+  margin-left: 3rem;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* ================ header =================== */
+
+.bg-color {
+  background-color: var(--pink);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-lg {
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.logo-lg img {
+  max-width: 100px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.menu ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu ul a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: playfair-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text);
+  max-width: 100%;
+  width: 25%;
+  display: inline-block;
+}
+
+.active {
+  text-decoration: line-through;
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.search,
+.cart,
+.user {
+  cursor: pointer;
+}
+
+/* ======================== footer =========================  */
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--gray1);
+}
+
+.foot {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.foot h3 {
+  margin-bottom: 20px;
+}
+
+.foot a {
+  color: #8e8e93;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--gray2);
+}
+
+.social-icon {
+  text-align: right;
+}
+
+.social-icon a {
+  text-decoration: none;
+}
+
+.slider ol ul {
+  display: block;
+}
+
+/* ============== content ========================== */
+.showcase {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-w {
+  width: 40%;
+}
+
+/* ================= media query ==================  */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    text-align: center;
+    order: 2;
+  }
+
+  .logo img {
+    max-width: 100px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .hamburger div {
+    background-color: var(--black);
+    height: 4px;
+    width: 30px;
+    margin-bottom: 6px;
+  }
+
+  .hamburger {
+    order: 1;
+    display: block;
+  }
+
+  .nav-icon {
+    display: flex;
+    order: 3;
+  }
+
+  .logo-lg {
+    margin: 10px 0;
+  }
+
+  .footer-bottom {
+    flex-wrap: wrap;
+  }
+
+  .copywrite {
+    text-align: center;
+    margin: 2px 0;
+  }
+
+  .social-icon {
+    text-align: center;
+    margin: 2px 0;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .logo-lg p {
+    padding: 0 5vw;
+  }
+}
+
+.img {
+  background-color: #000;
+  /*background: url("img/dresses.jpeg") center center; */
+  height: 100%;
+  border-radius: 30px;
+  /* background-size: cover;
+  opacity: 0.5;*/
+  position: relative;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+  border-radius: 30px;
+}
+
+.btn-overlay {
+  z-index: 9999;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
