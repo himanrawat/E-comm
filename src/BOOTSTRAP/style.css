@@ -1,13 +1,13 @@
 @font-face {
   font-family: magic;
-  src: url(fonts/HarryPotter-ov4z.ttf);
+  src: url(../fonts/HarryPotter-ov4z.ttf);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor: url("img/use160.cur"), auto;
+  cursor: url("../img/use160.cur"), auto;
 }
 
 body {

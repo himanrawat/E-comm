@@ -2,67 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9afc04fe-cbcf-4814-bf57-3ca1538df750" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SubmitButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user_login/UserLogin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/fonts/HarryPotter-ov4z.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/fonts/HarryPotter-ov4z.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/fonts/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/fonts/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/Albus_Dumbledore_sig.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/Albus_Dumbledore_sig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/Dumbledore.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/Dumbledore.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/gryffindor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/gryffindor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/hiclipart.com (3).png" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/hiclipart.com (3).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/hiclipart.com (4).png" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/hiclipart.com (4).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/hiclipart.com (5).png" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/hiclipart.com (5).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/hogwarts Color Palette - color-hex.com.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/hogwarts Color Palette - color-hex.com.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/hogwarts-7917.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/hogwarts-7917.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/pngkey.com-crest-png-439176.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/pngkey.com-crest-png-439176.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/raw/22950.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/22950.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/raw/Albus Dumbledore Wallpapers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/Albus Dumbledore Wallpapers.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/raw/Dumbledore.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/Dumbledore.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/raw/bGdF3Go-hogwarts-wallpaper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/bGdF3Go-hogwarts-wallpaper.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/raw/claudio-testa-iqeG5xA96M4-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/claudio-testa-iqeG5xA96M4-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/raw/hogwarts Color Palette - color-hex.com.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/hogwarts Color Palette - color-hex.com.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/raw/hogwarts-7917.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/hogwarts-7917.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/raw/rhii-photography-nK1nJ3eA3eA-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/rhii-photography-nK1nJ3eA3eA-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/raw/wp1914800-albus-dumbledore-wallpapers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/wp1914800-albus-dumbledore-wallpapers.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/raw/wp4445104-dumbledore-office-wallpapers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/wp4445104-dumbledore-office-wallpapers.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/img/use160.cur" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/img/use160.cur" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOTSTRAP/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/img/LOGO.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/img/demo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/img/dresses.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/img/logo(Small).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/img/logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/img/logo.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/mediaquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/raw/AdobeStock_282323918.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/raw/icons8-facebook.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/raw/icons8-instagram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/raw/icons8-twitter-squared.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/raw/supermarket-logo-concept.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/raw/supermarket-logo-concept/3588714.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/raw/supermarket-logo-concept/3588715.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/raw/supermarket-logo-concept/3588716.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/raw/supermarket-logo-concept/Fonts.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/raw/supermarket-logo-concept/License free.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/raw/supermarket-logo-concept/License premium.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-comm/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/day-nightMode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/day-nightMode/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/day-nightMode/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/day-nightMode/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/day-nightMode/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/day-nightMode/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/form-validation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/form-validation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/form-validation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/form-validation/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/form-validation/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/form-validation/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/fonts/HarryPotter-ov4z.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/HarryPotter-ov4z.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/fonts/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/Albus_Dumbledore_sig.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Albus_Dumbledore_sig.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/Dumbledore.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Dumbledore.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/gryffindor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/gryffindor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/hiclipart.com (3).png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hiclipart.com (3).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/hiclipart.com (4).png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hiclipart.com (4).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/hiclipart.com (5).png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hiclipart.com (5).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/hogwarts Color Palette - color-hex.com.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hogwarts Color Palette - color-hex.com.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/hogwarts-7917.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hogwarts-7917.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/pngkey.com-crest-png-439176.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/pngkey.com-crest-png-439176.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/22950.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/raw/22950.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/Albus Dumbledore Wallpapers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/raw/Albus Dumbledore Wallpapers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/Dumbledore.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/raw/Dumbledore.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/bGdF3Go-hogwarts-wallpaper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/raw/bGdF3Go-hogwarts-wallpaper.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/claudio-testa-iqeG5xA96M4-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/raw/claudio-testa-iqeG5xA96M4-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/hogwarts Color Palette - color-hex.com.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/raw/hogwarts Color Palette - color-hex.com.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/hogwarts-7917.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/raw/hogwarts-7917.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/rhii-photography-nK1nJ3eA3eA-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/raw/rhii-photography-nK1nJ3eA3eA-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/wp1914800-albus-dumbledore-wallpapers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/raw/wp1914800-albus-dumbledore-wallpapers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/raw/wp4445104-dumbledore-office-wallpapers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/raw/wp4445104-dumbledore-office-wallpapers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/img/use160.cur" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/use160.cur" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOOTSTRAP/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOTSTRAP/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +47,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iPIg4QKtcFLJodWL0WUe2FJbDA" />
@@ -86,6 +75,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,10 +116,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Initial version created for file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial version created for file structure" />
   </component>
 </project>

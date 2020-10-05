@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+body, html, #root, .app, .container {
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: black;
+  background-image: radial-gradient(
+          white,
+          rgba(255, 255, 255, 0.2) 2px,
+          transparent 40px
+  ),
+  radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+  radial-gradient(
+          rgba(255, 255, 255, 0.4),
+          rgba(255, 255, 255, 0.1) 2px,
+          transparent 30px
+  );
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: magic;
+  src: url(./fonts/HarryPotter-ov4z.ttf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  font-size: 28px;
+  color: #fbf9ff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #252934;
 }
 
-.App-link {
-  color: #61dafb;
+.LoginForm {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.InputField {
+  padding-top: 16px;
+  padding-left: 120px;
+}
+
+.input {
+  box-sizing: border-box;
+  outline: none;
+  border: solid 2px #1189de;
+  border-radius: 4px;
+  color: #292929;
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  background: rgba(255, 255, 255,1);
+}
+
+.SubmitButton {
+  padding-top: 16px;
+  padding-left: 120px;
+}
+
+
+.btn {
+  width: 100%;
+  min-width: 280px;
+  color: #3b1856;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border: solid 2px #1189de;
+  border-radius: 4px;
+  background: #7cb0ff;
+  cursor: pointer;
 }
